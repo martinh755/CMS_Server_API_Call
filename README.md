@@ -1,2 +1,2 @@
 # CMS API status call to web page
-Repositort for my CMS API call scripts
+Repository for my CMS API call scripts
