@@ -1,0 +1,10 @@
+host_id = 'c41cdf63-6d03-48f5-b8d2-075b3f8931d9'
+software_version = 2.9
+uptime_seconds = 1870823
+call_legs_active = 34
+call_legs_maxactive = 51
+call_legs_completed = 2928
+audio_bit_rateincoming = 2319169
+audio_bit_rateoutgoing = 2343824
+video_bit_rateincoming = 42214784
+video_bit_rateoutgoing = 30382447
