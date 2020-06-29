@@ -2,17 +2,38 @@
 
 reference https://developer.cisco.com/cisco-meeting-server/
 
-to obtain the script  gitclone https://github.com/martinh755/CMS_Server_API_Call.git
+Clone this repo
+gitclone https://github.com/martinh755/CMS_Server_API_Call.git
 
-Repository for my CMS API call scripts
+THis a repository for my CMS API call scripts
 
 There are a number of scripts here to allow an API call to log into Cisco meeting server and poll the API for status.
 
 <img src="CMS-stats.jpeg">
 
-This url is used to make the API call -url = "https://<cms-ip-address>:445/api/v1/system/status".  You need to update the IP address manually in the file or you could create this as a variable and reference the variable in the url
+This url is used to make the API call -url = "https://IP-Address:445/api/v1/system/status". 
+You need to update the IP address manually in the file or you could create this as a variable and reference the variable in the url
   
 The API status is returned as an XML output
+
+<?xml version="1.0"?>
+-<status>
+<hostId>c41cdf63-6d03-48f5-b8d2-075b3f8931d9</hostId>
+<softwareVersion>2.9</softwareVersion>
+<uptimeSeconds>1870823</uptimeSeconds>
+<cdrTime>2020-06-05T09:46:42Z</cdrTime>
+<activated>true</activated>
+<clusterEnabled>true</clusterEnabled>
+<cdrCorrelatorIndex>8974</cdrCorrelatorIndex>
+<callLegsActive>34</callLegsActive>
+<callLegsMaxActive>51</callLegsMaxActive>
+<callLegsCompleted>2928</callLegsCompleted>
+<audioBitRateOutgoing>2319169</audioBitRateOutgoing>
+<audioBitRateIncoming>2343824</audioBitRateIncoming>
+<videoBitRateOutgoing>42214784</videoBitRateOutgoing>
+<videoBitRateIncoming>30382447</videoBitRateIncoming>
+</status>
+
 
 The XML is written to file.
 
