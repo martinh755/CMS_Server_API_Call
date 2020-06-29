@@ -21,7 +21,7 @@ The XML is written to file.
 
 The file is read back in and parsed using element tree to create variables and writes to the stats.py file this is used by the flask template to update the CMSStats html template page in flask by referencing the stats.py variable in the html code
 
-
+<img src="Flask-CMS-html-variable.jpeg">
 
 CMSStatus.py does the API call
 
