@@ -14,9 +14,10 @@ There are a number of scripts here to allow an API call to log into Cisco meetin
 This url is used to make the API call -url = "https://IP-Address:445/api/v1/system/status". 
 You need to update the IP address manually in the file or you could create this as a variable and reference the variable in the url
   
-
-
 The XML is written to file.
+
+<img src="CMSStats.jpeg">
+
 
 The file is read back in and parsed using element tree to create variables for the CMSStats html template page in flask
 
