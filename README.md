@@ -19,13 +19,15 @@ The XML is written to file.
 <img src="CMSStats.jpeg">
 
 
-The file is read back in and parsed using element tree to create variables for the CMSStats html template page in flask
+The file is read back in and parsed using element tree to create variables and writes to the stats.py file this is used by the flask template to update the CMSStats html template page in flask by referencing the stats.py variable in the html code
+
+
 
 CMSStatus.py does the API call
 
-app.py runs the flask web server and the CMSStats template variables are updated every time the CMSStatus.py uses the scheduler which is currently every minute.
+app.py runs the flask web server and the CMSStats template variables are updated every time the CMSStatus.py uses the scheduler which is currently every minute. THis writes the variables to the stats.py file
 
-For the flask webserver we are accessing the localhost:5000/stats.py page
+For the flask webserver we are accessing the localhost:5000/CMSStats page
 
 Set the file up in a folder running C:\CMSStats or change the file paths in the script to match you directories for these file. if you are running a non windows system for this then remember to change or set the directories as required.
 
