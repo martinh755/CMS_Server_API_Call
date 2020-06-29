@@ -8,7 +8,7 @@ Repository for my CMS API call scripts
 
 There are a number of scripts here to allow an API call to log into Cisco meeting server and poll the API for status.
 
-<img src="./CMS-Stats.jpeg">
+<img src="https://github.com/martinh755/CMS_Server_API_Call/blob/master/CMS-stats.jpeg">
 
 This url is used to make the API call -url = "https://<cms-ip-address>:445/api/v1/system/status".  You need to update the IP address manually in the file or you could create this as a variable and reference the variable in the url
   
