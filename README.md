@@ -5,7 +5,7 @@ reference https://developer.cisco.com/cisco-meeting-server/
 Clone this repo
 gitclone https://github.com/martinh755/CMS_Server_API_Call.git
 
-THis a repository for my CMS API call scripts
+This a repository for my CMS API call scripts
 
 There are a number of scripts here to allow an API call to log into Cisco meeting server and poll the API for status.
 
